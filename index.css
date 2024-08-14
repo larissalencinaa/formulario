@@ -1,0 +1,40 @@
+body{
+    background-color: #F9C2BB;
+}
+
+.container{
+    background-color: white;
+    width: 40%;
+    padding: 1%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    border-radius: 20px;
+    box-shadow: 14px 11px 26px -8px rgba(0,0,0,0.52);
+}
+
+.titulo{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+}
+
+img{
+    width: 70%;
+}
+
+.formulario{
+    margin-right: 5%;
+}
+
+.input-texto{
+    width: 300px;
+    height: 25px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin: 10px 0;
+}

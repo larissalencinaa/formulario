@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="formulario.js"></script>
+    <title>formulario</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Cadastro</h1>
+        <div class="conteudo">
+            <div class="foto">
+                <img src="FLOR.png" alt="">
+            </div>
+    
+            <div class="formulario">
+                <label for="">Nome:</label> <br>
+                <input class="input-texto" type="text" id="Nome">
+                <br>
+                <label for="">Email:</label> <br>
+                <input class="input-texto" type="email" id="Email">
+                <br>
+                <label for="">Senha:</label> <br>
+                <input class="input-texto" type="password" id="Senha" >
+        
+                <p>Genero:</p>
+                <input type="radio" name="Genero" value="feminino" id="feminino">
+                <label for="">feminino</label>
+        
+                <input type="radio" name="Genero"  value="Masculino" id="Masculino">
+                <label for="">Masculino</label>
+        
+                <input type="radio" name="Genero"  value="Outro" id="Genero">
+                <label for="">Outro</label>
+
+                <button type="button" onclick="Enviar()">Enviar</button>
+                
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
